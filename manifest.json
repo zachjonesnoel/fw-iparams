@@ -1,0 +1,22 @@
+{
+  "platform-version": "2.2",
+  "product": {
+    "freshservice": {
+      "events": {
+        "onTicketCreate": {
+          "handler": "onTicketCreateHandler"
+        }
+      }
+    }
+  },
+  "whitelisted-domains": [
+    "https://freshworks380.freshservice.com"
+  ],
+  "engines": {
+    "node": "14.19.3",
+    "fdk": "8.6.1"
+  },
+  "dependencies": {
+    "buffer": "6.0.3"
+  }
+}

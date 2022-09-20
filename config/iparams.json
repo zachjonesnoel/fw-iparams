@@ -1,0 +1,34 @@
+{
+    "domain_name": {
+        "display_name": "API Key",
+        "description": "Please enter your api key",
+        "type": "domain",
+        "secure": true,
+        "required": true,
+        "type_attributes": {
+            "product": "freshservice"
+        }
+    },
+    "api_key": {
+        "display_name": "API Key",
+        "description": "Please enter your api key",
+        "type": "api_key",
+        "secure": true,
+        "required": true,
+        "type_attributes": {
+            "product": "freshservice"
+        }
+    },
+    "firstname": {
+        "display_name": "Name",
+        "description": "Please enter your name",
+        "type": "text",
+        "required": true
+    },
+    "notes": {
+        "display_name": "Notes",
+        "description": "Please enter your note",
+        "type": "paragraph",
+        "required": true
+    }
+}

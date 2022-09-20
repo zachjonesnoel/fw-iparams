@@ -1,0 +1,4 @@
+.fdk
+log/*
+server/node_modules/*
+server/lib/*
